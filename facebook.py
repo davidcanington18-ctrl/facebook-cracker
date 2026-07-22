@@ -7,7 +7,7 @@ import sys
 import random
 import time
 
-# You might need to install these: pip3 install mechanize
+# You might need to install these: pip3 install mechanizehttps://github.com/Ha3MrX/facebook-cracker/commit/45a197b0566a57b7d9b19234c538788e892478dc
 try:
     import mechanize
     import http.cookiejar as cookielib
