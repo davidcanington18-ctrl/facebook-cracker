@@ -36,6 +36,8 @@ def welcome(email, passwordlist):
         +-----------------------------------------+\n\n
     """
     try:
+        if ".." in passwordlist:
+            raise Exception("Invalid file path")
         with open(passwordlist, "r", encoding="utf-8", errors="ignore") as f:
             total = f.readlines()
         print(wel)
@@ -70,6 +72,8 @@ def brute(password, br, email):
 
 def search(email, passwordlist, br):
     try:
+        if ".." in passwordlist:
+            raise Exception("Invalid file path")
         with open(passwordlist, "r", encoding="utf-8", errors="ignore") as passwords:
             for password in passwords:
                 password = password.strip()
